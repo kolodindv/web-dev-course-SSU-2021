@@ -1,0 +1,101 @@
+html,
+body {
+    width: 100%;
+    margin: 0;
+    font-family: Verdana,Geneva,sans-serif; 
+}
+
+header {
+    background-color: #14100f;  
+    width: 100%;    
+}
+
+.header-cap-img,
+.header-cap-text 
+ {
+    display: block;
+    margin: auto;
+    width: 20%;
+}
+
+.header-cap-text {    
+    color: #d2221e; 
+    font-family: sans-serif;
+    font-size: calc(1rem + 2vw);
+    font-style: normal; 
+    text-align: center;
+}
+
+.science-menu,
+.World-Chess-Championship-2021,
+.articles-menu {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.science-menu {
+    width: 20%;
+    padding-left: 15px;
+}
+
+.World-Chess-Championship-2021 {
+    width: 64%;
+    padding-left: 15px; 
+    border-left: 3px solid #d2221e;
+}
+
+.resut-table{
+    /* src="https://live.staticflickr.com/4498/23717932658_2cba7ff2b0_b.jpg" */
+    background-image: url("https://ds05.infourok.ru/uploads/ex/0328/0010cc07-4a283e17/hello_html_201cb7bb.jpg");
+    background-position: 50% 32%;
+    text-align: center;
+    width: 500px;
+} 
+
+.resut-table tr td:nth-child(1),
+.resut-table tr td:nth-child(3) {
+    width: 50%;
+    font-weight:bold;
+}
+
+.resut-table tr td:nth-child(2) {
+    width: auto;
+    font-weight: bold;
+}
+
+.resut-table tr:nth-child(2) {
+    font-size: larger;
+}
+
+.articles-menu {    
+    position: absolute;
+    width: 16%;
+    right: 0px;
+    text-align: right;
+    padding: 0 15px 0 15px;
+    border: 3px dashed #d2221e;
+}
+
+.science-menu__list,
+.science-menu--history__list {
+    list-style: none;
+    padding: 0;
+}
+
+footer {
+    text-align: center;
+}
+
+a:link{
+    color: mediumblue;
+}
+a:visited {
+    color: darkmagenta;
+}
+a:hover {
+    color: olivedrab;
+}
+a:active{
+    color: red;
+}
