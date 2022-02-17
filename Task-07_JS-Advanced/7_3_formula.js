@@ -19,34 +19,32 @@ const toBinom = (n) => {
   if (n == 0) {
     result = '1'
   } else {
-    {
-      for (let i = 0; i <= n; i++) {
-        let c = factorialMass[BigInt(n)] / (factorialMass[BigInt(n - i)] * factorialMass[BigInt(n) - BigInt(n - i)]);
-        (c == 1) ? c = "" : result += c.toString();
+    for (let i = 0; i <= n; i++) {
+      let c = factorialMass[n] / (factorialMass[i] * factorialMass[n - i]);
+      (c == 1) ? c = '' : result += c.toString();
 
-        if (n - i == 1) {
-          result += 'a';
-        }
-        if (n - i > 1) {
-          result += 'a^' + (n - i);
-        }
-        if (i == 1) {
-          result += 'b';
-        }
-        if (i > 1) {
-          result += 'b^' + (i);
-        }
-        if (i != n) {
-          result += '+';
-        }
+      if (n - i == 1) {
+        result += 'a';
+      }
+      if (n - i > 1) {
+        result += 'a^' + (n - i);
+      }
+      if (i == 1) {
+        result += 'b';
+      }
+      if (i > 1) {
+        result += 'b^' + (i);
+      }
+      if (i != n) {
+        result += '+';
       }
     }
   }
-
   return isPositive ? result : '1/(' + result + ')';
 }
 
-console.log("Формула бинома Ньютона для n: ")
+console.log("7.3. Формула бинома Ньютона для n: ")
+
 console.log(toBinom(0));
 console.log(toBinom(1));
 console.log(toBinom(2));
