@@ -9,5 +9,5 @@ http://htmlpreview.github.io/?https://github.com/kolodindv/web-dev-course-SSU-20
 http://htmlpreview.github.io/?https://github.com/kolodindv/web-dev-course-SSU-2021/blob/master/Task-04_CSS-Basics/index.html
 # Task 6
 http://htmlpreview.github.io/?https://github.com/kolodindv/web-dev-course-SSU-2021/blob/master/Task-06_JS-Basics/index.html
-# Task 6
+# Task 7
 http://htmlpreview.github.io/?https://github.com/kolodindv/web-dev-course-SSU-2021/blob/master/Task-07_JS-Advanced/index.html
