@@ -1,13 +1,12 @@
+let factorialMass = [1n, 1n]
+  for (let i = 2n; i <= 200n; i++){
+    factorialMass[i] = factorialMass[i - 1n] * i;
+  }
+
 const toBinom = (n) => {
   if (!Number.isInteger(n) || n < -200 || n > 200) {
     return 'Invalid input';
   }
-
-  let factorialMass = [1n, 1n]
-  for (let i = 2n; i <= 200n; i++){
-    factorialMass[i] = factorialMass[i - 1n] * i;
-  }
-  console.log(factorialMass);
 
   let result = '';
   let isPositive = true;
