@@ -1,0 +1,14 @@
+{
+  "name": "task-final_js-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "kolodindv",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^18.0.0"
+  }
+}

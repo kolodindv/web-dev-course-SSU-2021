@@ -1,0 +1,28 @@
+{
+    // Используйте IntelliSense, чтобы узнать о возможных атрибутах.
+    // Наведите указатель мыши, чтобы просмотреть описания существующих атрибутов.
+    // Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {            
+            "name": "Electron: Main",
+            "type": "node",
+            "request": "launch",
+            "protocol" : "inseptor",
+            "program": "${workspaceFolder}/main.js",
+            "stopOnEntry": false,
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron.cmd",
+            "runtimeArgs": ["--remote-debugging-port-9223"],
+            "env": {
+                "NODE_ENV": "development",
+            },
+            "internalConsoleOptions": "openOnSessionStart",
+            "console": "integratedTerminal",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],            
+        }
+    ]
+}
